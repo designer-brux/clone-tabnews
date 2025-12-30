@@ -1,0 +1,38 @@
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> curso.dev +trace
+;; global options: +cmd
+.			6900	IN	NS	i.root-servers.net.
+.			6900	IN	NS	m.root-servers.net.
+.			6900	IN	NS	a.root-servers.net.
+.			6900	IN	NS	f.root-servers.net.
+.			6900	IN	NS	j.root-servers.net.
+.			6900	IN	NS	g.root-servers.net.
+.			6900	IN	NS	c.root-servers.net.
+.			6900	IN	NS	b.root-servers.net.
+.			6900	IN	NS	l.root-servers.net.
+.			6900	IN	NS	e.root-servers.net.
+.			6900	IN	NS	d.root-servers.net.
+.			6900	IN	NS	k.root-servers.net.
+.			6900	IN	NS	h.root-servers.net.
+;; Received 811 bytes from 127.0.0.53#53(127.0.0.53) in 4 ms
+
+dev.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+dev.			86400	IN	DS	60074 8 2 B942E2CE5AEBF62FCA59D05707E6DBB795211D540D8ADBA02E9E89E8 33424785
+dev.			86400	IN	RRSIG	DS 8 1 86400 20251224050000 20251211040000 61809 . db+qtho3j2pbaK5JF7KAUWvcMReDnuHPAG1GbcWgj/ef+ZAPbVJzpcjE jWjUTMwVaDaOhZQVbp9khTyyfKJv+xbGow+DPSSr7/3gXgJ8UGuhbygQ rsJslD3hCOoiCkNvf3OpEfdO/t2X0MU7il6w1s8QdxI5syNIAIzdtok0 zKTXPwvjn7QWfDUra2VO5vN7I/oW4So+RyOj5yZKG98FjmVZv1bEXozW /4BvlumTGRCWnIDSXTKClAn615wWazMn8Y5f+WjNKPJzwwNkQQa3yPlz 8QVcGznE1P0T14RcY0HS/Fv89TfMSHpRuxECqZAp2bhwghJcoBlnxrA3 TFdSlg==
+;; Received 757 bytes from 192.33.4.12#53(c.root-servers.net) in 6 ms
+
+curso.dev.		10800	IN	NS	terry.ns.cloudflare.com.
+curso.dev.		10800	IN	NS	gwen.ns.cloudflare.com.
+4l7kbs53njj7jmcajh5r5ijdrcvcf2nt.dev. 300 IN NSEC3 1 0 1 B7B0891083980E59 4L7KMTDDSSRCLODAQQR01SSS1MLJUNNM NS
+4l7kbs53njj7jmcajh5r5ijdrcvcf2nt.dev. 300 IN RRSIG NSEC3 8 2 300 20260101140346 20251210140346 45483 dev. iVz2KYWHZOlTpO2xC8aQQ63dGGfB9NMkxOHeh8zbjoeno/5kLav8lOjK Wsbme0/WZx9OOr22OHDN7kMyeqnNuKEdzrhEML7WabsKL92rK7eQis8O uH+2qm6lu8KU65wPEhJHAMnAPbR+v6HYdoWyiiFEzXc840iRkD7LUAE3 2u0=
+;; Received 372 bytes from 216.239.36.105#53(ns-tld3.charlestonroadregistry.com) in 7 ms
+
+curso.dev.		300	IN	A	104.26.12.195
+curso.dev.		300	IN	A	172.67.74.250
+curso.dev.		300	IN	A	104.26.13.195
+;; Received 86 bytes from 173.245.59.237#53(terry.ns.cloudflare.com) in 8 ms
+
